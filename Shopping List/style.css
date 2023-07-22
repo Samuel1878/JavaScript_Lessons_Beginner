@@ -1,0 +1,14 @@
+.container {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.containerBody{
+    width:200px;
+    height:200px;
+    background-image: conic-gradient(#ff8a00, #e52e71, #ff8a00);
+}
+.shoppingList{
+
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: #2d3f50;
+}
+.container {
+    margin-top:10px;
+    position:sticky;
+    top:0px;
+    width:100%;
+    
+}
+ul {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style-type: none;
+    display:inline-block;
+    color:#fff;
+    cursor: pointer;
+    background-color: #da4353;
+    padding: 10px 25px;
+    -webkit-user-select: none;
+}
+.slider {
+    height:5px;
+    background-color: aqua;
+    transition: all 0.6s ease-in-out;
+}
+.tabMenus {
+    position: relative;
+}
+.resultContainer{
+    width:100vw;
+    height:500px;
+    border:1px solid blue;
+}
+.image {
+   overflow: hidden;
+   max-width: 1020px;
+}
+.hide {
+    display:none;
+}

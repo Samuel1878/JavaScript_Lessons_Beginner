@@ -1,0 +1,49 @@
+body {
+    background-color: #006;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+}
+.trackItem {
+    font-size: 20px;
+    color:whitesmoke;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+.trackItem:hover {
+    color:red;
+}
+.playListContainer {
+    margin-bottom: 20px;
+}
+.currentAndTotleTime {
+    color:#fff;
+    margin: 10px;
+}
+#progressBar {
+    background-color: whitesmoke;
+    width:500px;
+    height:6px;
+    border-radius: 6px;
+}
+#currentProgress {
+    background-color: red;
+    width:0px;
+    height: 100%;
+    border-radius: 6px;
+}
+.controls {
+    color:#fff;
+    font-size: 40px;
+    margin:15px;
+}
+.pauseButton {
+    display:none;
+}
+

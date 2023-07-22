@@ -1,0 +1,30 @@
+body {
+    background-color: aliceblue;
+}
+.container {
+ margin-top: 80px;
+ max-width: 600px;
+}
+.inputTag {
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.resultContainer {
+    background-color: #fff;
+}
+.productItemContainer {
+    border-bottom: 1px solid rgb(57, 57, 83);
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+}
+.productImage {
+height: 80%;
+}
+.productName {
+ font-size: 10px;
+ width:80%;
+}

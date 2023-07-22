@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/4013a0d1ec.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body class="bg-secondary">
+  <!--Nav1-->
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <span class="navbar-text text-warning">
+        Subscribe for premium plan
+      </span>
+    </div>
+  </nav>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand  text-light order-1 mr-0" href="#">Presented by Nobody</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item  text-light">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light">About us</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!--NavbarEnd-->
+  <!--BodyImageSpin-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="Chicago" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../Pic/pexels-ron-lach-9256867.jpg" alt="Los Angeles" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../Pic/pexels-moose-photos-1038000.jpg" alt="Chicago" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../Pic/pexels-ksenia-chernaya-3965545.jpg" alt="New York" class="d-block w-100">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+    <!--productSearchBar-->
+    <div class="container inputCon">
+      <input type="text" class="form-control my-5" placeholder="Enter product name">
+      <div class="shoppingList"></div>
+    </div>
+    <!--Products-->
+    <h1 class="display-4 text-center text-muted my-5">Products</h1>
+    <div class="container bg-secondary">
+    <div class="productCards">
+      <div class="card text-bg-secondary border border-2 border-light" style="width: 18rem;">
+        <img src="../Pic/pexels-mart-production-9558906.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Press P1 Cat</h5>
+          <p class="card-text">We gurrentee for your high</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-bg-secondary">Indica (hybrid)</li>
+          <li class="list-group-item text-bg-secondary">Press Edition</li>
+          <li class="list-group-item text-bg-secondary">Local</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sale Agent</a>
+          <a href="#" class="card-link">validor</a>
+        </div>
+      </div>
+    </div>
+    <div class="productCards">
+      <div class="card text-bg-secondary border border-2 border-light" style="width: 18rem;">
+        <img src="../Pic/pexels-cottonbro-studio-4066290.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Press P1 Cat</h5>
+          <p class="card-text">We gurrentee for your high</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-bg-secondary">Indica (hybrid)</li>
+          <li class="list-group-item text-bg-secondary">Press Edition</li>
+          <li class="list-group-item text-bg-secondary">Local</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sale Agent</a>
+          <a href="#" class="card-link">validor</a>
+        </div>
+      </div>
+    </div>
+    <div class="productCards">
+      <div class="card text-bg-secondary border border-2 border-light" style="width: 18rem;">
+        <img src="../Pic/pexels-ron-lach-8306379.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Press P1 Cat</h5>
+          <p class="card-text">We gurrentee for your high</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-bg-secondary">Indica (hybrid)</li>
+          <li class="list-group-item text-bg-secondary">Press Edition</li>
+          <li class="list-group-item text-bg-secondary">Local</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sale Agent</a>
+          <a href="#" class="card-link">validor</a>
+        </div>
+      </div>
+    </div>
+    <div class="productCards">
+      <div class="card text-bg-secondary border border-2 border-light" style="width: 18rem;">
+        <img src="../Pic/pexels-godisable-jacob-794062.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Press P1 Cat</h5>
+          <p class="card-text">We gurrentee for your high</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-bg-secondary">Indica (hybrid)</li>
+          <li class="list-group-item text-bg-secondary">Press Edition</li>
+          <li class="list-group-item text-bg-secondary">Local</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sale Agent</a>
+          <a href="#" class="card-link">validor</a>
+        </div>
+      </div>
+    </div>
+    <div class="productCards">
+      <div class="card text-bg-secondary border border-2 border-light" style="width: 18rem;">
+        <img src="../Pic/pexels-cottonbro-studio-4937223.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Press P1 Cat</h5>
+          <p class="card-text">We gurrentee for your high</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-bg-secondary">Indica (hybrid)</li>
+          <li class="list-group-item text-bg-secondary">Press Edition</li>
+          <li class="list-group-item text-bg-secondary">Local</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sale Agent</a>
+          <a href="#" class="card-link">validor</a>
+        </div>
+      </div>
+    </div>
+    <div class="productCards">
+      <div class="card text-bg-secondary border border-2 border-light" style="width: 18rem;">
+        <img src="../Pic/pexels-cottonbro-studio-4937449.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Press P1 Cat</h5>
+          <p class="card-text">We gurrentee for your high</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-bg-secondary">Indica (hybrid)</li>
+          <li class="list-group-item text-bg-secondary">Press Edition</li>
+          <li class="list-group-item text-bg-secondary">Local</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sale Agent</a>
+          <a href="#" class="card-link">validor</a>
+        </div>
+      </div>
+    </div>
+    <div class="productCards">
+      <div class="card text-bg-secondary border border-2 border-light" style="width: 18rem;">
+        <img src="../Pic/pexels-monstera-6310924.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Press P1 Cat</h5>
+          <p class="card-text">We gurrentee for your high</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-bg-secondary">Indica (hybrid)</li>
+          <li class="list-group-item text-bg-secondary">Press Edition</li>
+          <li class="list-group-item text-bg-secondary">Local</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sale Agent</a>
+          <a href="#" class="card-link">validor</a>
+        </div>
+      </div>
+    </div>
+    <div class="productCards">
+      <div class="card text-bg-secondary border border-2 border-light" style="width: 18rem;">
+        <img src="../Pic/pexels-cottonbro-studio-6765169.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Press P1 Cat</h5>
+          <p class="card-text">We gurrentee for your high</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-bg-secondary">Indica (hybrid)</li>
+          <li class="list-group-item text-bg-secondary">Press Edition</li>
+          <li class="list-group-item text-bg-secondary">Local</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Sale Agent</a>
+          <a href="#" class="card-link">validor</a>
+        </div>
+      </div>
+    </div>
+   </div>
+    <!--Schedule-->
+    <h1 class="display-4 text-center text-muted my-5">Schedule</h1>
+    [shedule goes here]
+
+
+ 
+
+  <script src="script.js">
+  </script>
+
+</body>
+
+</html>

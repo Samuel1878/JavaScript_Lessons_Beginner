@@ -1,0 +1,54 @@
+.form-control {
+    max-width: 500px;
+}
+.bodySpinImage {
+    max-width: 2080px;
+    display:block;
+    height:300px;
+    
+}
+.inputCon {
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+}
+.form-control {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.productCards {
+    display:flex;
+    display:inline-block;
+    margin: 15px;
+}
+.laVa {
+    max-width: 400px;
+}
+.listContainer {
+    cursor: pointer;
+    background-color: white;
+    padding:15px;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    display: inline;
+    
+}
+.actedCSS {
+    text-decoration: line-through;
+}
+.productContainer {
+    
+    margin-bottom: 20px;
+    
+}
+.fa-trash-can {
+    color:white;
+    font-size: 30px;
+    margin:15px;
+}
+.shoppingList {
+    display: flex;
+    flex-direction: column;
+}
